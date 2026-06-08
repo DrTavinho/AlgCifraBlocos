@@ -1,0 +1,16 @@
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.csproj.GenerateResource.cache
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.GeneratedMSBuildEditorConfig.editorconfig
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.AssemblyInfoInputs.cache
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.AssemblyInfo.cs
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.csproj.CoreCompileInputs.cache
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.Form1.resources
+E:\facu\Programas\AlgCifraBlocos\bin\Debug\net8.0-windows\AlgCifraBlocos.exe
+E:\facu\Programas\AlgCifraBlocos\bin\Debug\net8.0-windows\AlgCifraBlocos.deps.json
+E:\facu\Programas\AlgCifraBlocos\bin\Debug\net8.0-windows\AlgCifraBlocos.runtimeconfig.json
+E:\facu\Programas\AlgCifraBlocos\bin\Debug\net8.0-windows\AlgCifraBlocos.dll
+E:\facu\Programas\AlgCifraBlocos\bin\Debug\net8.0-windows\AlgCifraBlocos.pdb
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.dll
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\refint\AlgCifraBlocos.dll
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.pdb
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.genruntimeconfig.cache
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\ref\AlgCifraBlocos.dll

@@ -1,0 +1,177 @@
+﻿namespace AlgCifraBlocos
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.txtKey = new System.Windows.Forms.TextBox();
+            this.lblKey = new System.Windows.Forms.Label();
+            this.btnSelectInput = new System.Windows.Forms.Button();
+            this.lblInputFile = new System.Windows.Forms.Label();
+            this.btnSelectOutput = new System.Windows.Forms.Button();
+            this.lblOutputFile = new System.Windows.Forms.Label();
+            this.rbtnEncrypt = new System.Windows.Forms.RadioButton();
+            this.rbtnDecrypt = new System.Windows.Forms.RadioButton();
+            this.btnProcess = new System.Windows.Forms.Button();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
+            SuspendLayout();
+            // 
+            // lblKey
+            // 
+            this.lblKey.AutoSize = true;
+            this.lblKey.Location = new System.Drawing.Point(12, 15);
+            this.lblKey.Name = "lblKey";
+            this.lblKey.Size = new System.Drawing.Size(30, 15);
+            this.lblKey.TabIndex = 0;
+            this.lblKey.Text = "Chave:";
+            // 
+            // txtKey
+            // 
+            this.txtKey.Location = new System.Drawing.Point(60, 12);
+            this.txtKey.Name = "txtKey";
+            this.txtKey.Size = new System.Drawing.Size(520, 23);
+            this.txtKey.TabIndex = 1;
+            // 
+            // btnSelectInput
+            // 
+            this.btnSelectInput.Location = new System.Drawing.Point(12, 50);
+            this.btnSelectInput.Name = "btnSelectInput";
+            this.btnSelectInput.Size = new System.Drawing.Size(120, 27);
+            this.btnSelectInput.TabIndex = 2;
+            this.btnSelectInput.Text = "Selecionar arquivo";
+            this.btnSelectInput.UseVisualStyleBackColor = true;
+            this.btnSelectInput.Click += new System.EventHandler(this.btnSelectInput_Click);
+            // 
+            // lblInputFile
+            // 
+            this.lblInputFile.AutoEllipsis = true;
+            this.lblInputFile.Location = new System.Drawing.Point(140, 50);
+            this.lblInputFile.Name = "lblInputFile";
+            this.lblInputFile.Size = new System.Drawing.Size(440, 27);
+            this.lblInputFile.TabIndex = 3;
+            this.lblInputFile.Text = "Nenhum arquivo selecionado";
+            this.lblInputFile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btnSelectOutput
+            // 
+            this.btnSelectOutput.Location = new System.Drawing.Point(12, 90);
+            this.btnSelectOutput.Name = "btnSelectOutput";
+            this.btnSelectOutput.Size = new System.Drawing.Size(120, 27);
+            this.btnSelectOutput.TabIndex = 4;
+            this.btnSelectOutput.Text = "Salvar como...";
+            this.btnSelectOutput.UseVisualStyleBackColor = true;
+            this.btnSelectOutput.Click += new System.EventHandler(this.btnSelectOutput_Click);
+            // 
+            // lblOutputFile
+            // 
+            this.lblOutputFile.AutoEllipsis = true;
+            this.lblOutputFile.Location = new System.Drawing.Point(140, 90);
+            this.lblOutputFile.Name = "lblOutputFile";
+            this.lblOutputFile.Size = new System.Drawing.Size(440, 27);
+            this.lblOutputFile.TabIndex = 5;
+            this.lblOutputFile.Text = "Nenhum arquivo de saída";
+            this.lblOutputFile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // rbtnEncrypt
+            // 
+            this.rbtnEncrypt.AutoSize = true;
+            this.rbtnEncrypt.Checked = true;
+            this.rbtnEncrypt.Location = new System.Drawing.Point(12, 130);
+            this.rbtnEncrypt.Name = "rbtnEncrypt";
+            this.rbtnEncrypt.Size = new System.Drawing.Size(64, 19);
+            this.rbtnEncrypt.TabIndex = 6;
+            this.rbtnEncrypt.TabStop = true;
+            this.rbtnEncrypt.Text = "Encriptar";
+            this.rbtnEncrypt.UseVisualStyleBackColor = true;
+            // 
+            // rbtnDecrypt
+            // 
+            this.rbtnDecrypt.AutoSize = true;
+            this.rbtnDecrypt.Location = new System.Drawing.Point(100, 130);
+            this.rbtnDecrypt.Name = "rbtnDecrypt";
+            this.rbtnDecrypt.Size = new System.Drawing.Size(68, 19);
+            this.rbtnDecrypt.TabIndex = 7;
+            this.rbtnDecrypt.Text = "Decriptar";
+            this.rbtnDecrypt.UseVisualStyleBackColor = true;
+            // 
+            // btnProcess
+            // 
+            this.btnProcess.Location = new System.Drawing.Point(12, 170);
+            this.btnProcess.Name = "btnProcess";
+            this.btnProcess.Size = new System.Drawing.Size(120, 30);
+            this.btnProcess.TabIndex = 8;
+            this.btnProcess.Text = "Iniciar";
+            this.btnProcess.UseVisualStyleBackColor = true;
+            this.btnProcess.Click += new System.EventHandler(this.btnProcess_Click);
+            // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(140, 170);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(440, 30);
+            this.progressBar.TabIndex = 9;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(600, 220);
+            Controls.Add(this.progressBar);
+            Controls.Add(this.btnProcess);
+            Controls.Add(this.rbtnDecrypt);
+            Controls.Add(this.rbtnEncrypt);
+            Controls.Add(this.lblOutputFile);
+            Controls.Add(this.btnSelectOutput);
+            Controls.Add(this.lblInputFile);
+            Controls.Add(this.btnSelectInput);
+            Controls.Add(this.txtKey);
+            Controls.Add(this.lblKey);
+            Name = "Form1";
+            Text = "Algoritmo de Cifra de Blocos - Inn Seguros";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox txtKey;
+        private System.Windows.Forms.Label lblKey;
+        private System.Windows.Forms.Button btnSelectInput;
+        private System.Windows.Forms.Label lblInputFile;
+        private System.Windows.Forms.Button btnSelectOutput;
+        private System.Windows.Forms.Label lblOutputFile;
+        private System.Windows.Forms.RadioButton rbtnEncrypt;
+        private System.Windows.Forms.RadioButton rbtnDecrypt;
+        private System.Windows.Forms.Button btnProcess;
+        private System.Windows.Forms.ProgressBar progressBar;
+        private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
+    }
+}
