@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgCifraBlocos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59b970a854c4de62d4007d8f514e539f3469e91d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgCifraBlocos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgCifraBlocos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,3 +14,4 @@ E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\refint\AlgCifraBlocos.
 E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.pdb
 E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.genruntimeconfig.cache
 E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\ref\AlgCifraBlocos.dll
+E:\facu\Programas\AlgCifraBlocos\obj\Debug\net8.0-windows\AlgCifraBlocos.sourcelink.json
